@@ -254,12 +254,8 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Collaborative Perception enables multiple agents, such as autonomous vehicles and infrastructure, to share sensor data via vehicular networks so that each agent gains an extended sensing range and better perception quality. Despite its promising benefits, realizing the full potential of such systems faces significant challenges due to inherent imperfections in underlying system layers, consisting of network layer imperfections and hardware-level noises. Such imperfections and noises include packet loss in vehicular networks, localization errors from GPS measurements, and synchronization errors caused by clock deviation and network latency.
-            <br><br>
-            To address these challenges, we propose a novel end-to-end collaborative perception framework, <strong>SCORPION</strong>, that harnesses the AI co-design of the application layer and system layer to tackle the aforementioned imperfections. <strong>SCORPION</strong> consists of three main components: lost bird's eye view feature reconstruction (L-BEV-R) recovers lost spatial features during lossy V2X communication, while deformable spatial cross attention (DSCA) and temporal alignment (TA) compensate for localization and synchronization errors in feature fusion. Experimental results on both synthetic and real-world collaborative 3D object detection datasets demonstrate that <strong>SCORPION</strong> advances the state-of-the-art collaborative perception methods by 5.9 - 13.2 absolute AP on both standard and noisy scenarios.  
+            Gimbal-stabilized visual tracking is critical for modern autonomous systems such as Unmanned Aerial Vehicles (UAVs). While prior work shows acoustic signals can disturb gimbal internals, the impact of such attacks on real-world applications like UAV tracking and following remains underexplored. Existing demonstrations largely overlook practical challenges for real-world attacks, such as object-motion uncertainty and runtime latency. To bridge this gap, we present <strong>Banshee</strong>, the first physically realizable attack that induces target switching in UAV visual tracking systems by exploiting acoustic vulnerabilities in gimbal-camera systems. <strong>Banshee</strong> generates carefully crafted acoustic waveforms that induce optimized adversarial gimbal oscillations, causing directionally biased camera-view drifts that break inter-frame target associations. Consequently, the onboard tracker is driven to switch from the original target to an attacker-selected object with high probability, with occasional target loss. <strong>Banshee</strong> achieves a 93.6% success rate in simulation across two commercial gimbal systems and five trackers. Real-world benchtop and in-flight black-box attacks against a commercial drone across varied scenarios show an overall 95.5% attack success rate. Our results reveal a practical cross-domain vulnerability between acoustics and vision, highlighting the need for robust designs of gimbal systems and applications.  
           </p>
-
-          
         </div>
       </div>
     </div>
@@ -289,12 +285,12 @@
             
             <!-- Image Section -->
               <div class="figure-container">
-                <img src="./static/images/architecture.png" alt="SCORPION Framework">
+                <img src="./static/images/architecture.png" alt="Banshee Framework">
                 
             </div>
             <p class="figure-caption">
-              <strong>Figure 1: SCORPION Overview.</strong> 
-              SCORPION consists of three main components: a lost BEV feature reconstruction (L-BEV-R) module, a deformable spatial cross-attention (DSCA) module, and a temporal alignment (TA) module.
+              <strong>Figure 1: Banshee Overview.</strong> 
+              Banshee consists of an offline gimbal profiling procedure and an online optimized attack.
             </p>
             </div>
   
@@ -313,15 +309,15 @@
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
-          <h2 class="title is-3 approach-title">Qualitative Results</h2>
+          <h2 class="title is-3 approach-title">...</h2>
           <div class="content has-text-justified">
             
             <!-- Image Section -->
               <div class="figure-container">
-                <img src="./static/images/Visualization.png" alt="SCORPION qualitative results">
+                <img src="./static/images/Visualization.png" alt="...">
                 <p class="figure-caption">
-                    <strong>Figure 2: Qualitative Comparison on Challenging Objects.</strong>  
-                    We compare SCORPION with the state-of-the-art collaborative perception methods on challenging objects, including several occluded, small, and far-away objects.
+                    <strong>Figure 2: ...</strong>  
+                    ...
                 </p>
             </div>
             </div> -
@@ -340,15 +336,15 @@
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
-          <h2 class="title is-3 approach-title">Quantitative Results</h2>
+          <h2 class="title is-3 approach-title">...</h2>
           <div class="content has-text-justified">
             
             <!-- Image Section -->
               <div class="figure-container">
-                <img src="./static/images/noise_all.png" alt="SCORPION quantitative results">
+                <img src="./static/images/noise_all.png" alt="...">
                 <p class="figure-caption">
-                    <strong>Figure 3: Qualitative Comparison.</strong>  
-                    SCORPION outperforms the state-of-the-art collaborative perception methods by 5.9 - 13.2 absolute AP on both standard and noisy scenarios.
+                    <strong>Figure 3: ...</strong>  
+                    ...
                 </p>
             </div>
             </div> -
