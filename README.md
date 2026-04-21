@@ -7,7 +7,7 @@ If you find Banshee useful for your work please cite:
 @article{li2026banshee
   author    = {Li, Jiarui and Brewington, Joseph and Zhang, Qingzhao and Mao, Z. Morley},
   title     = {Banshee: Target Switch Attacks on Gimbal-Stabilized Visual Tracking Systems via Acoustic Injection},
-  journal   = {IEEE Security & Privacy},
+  journal   = {IEEE Symposium on Security and Privacy},
   year      = {2026},
 }
 ```
