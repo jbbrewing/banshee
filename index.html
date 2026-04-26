@@ -654,7 +654,7 @@
 
       <!-- Results Table -->
       <h3 class="title is-5 section-title-accent" style="margin-bottom:1rem; margin-top:2.5rem;">Attack Success Rates (Simulation)</h3>
-      <p style="font-size:0.9rem; color:#555; margin-bottom:1rem;">Switch/Disable success rates across 5 trackers on 2 commercial drone gimbal systems (108 trials per configuration).</p>
+      <p style="font-size:0.9rem; color:#555; margin-bottom:1rem;">Switch/Disable success rates across 5 trackers on 2 commercial drone gimbal systems (108 trials per configuration). In Normal, we simulate UAV object tracking without the presence of attack. In Noisy, we simulate UAV object tracking under strong and gusty wind supported by the realistic Gazebo WindEffects plugin. In HighEndDrone and MidEndDrone, we simulate attacks with corresponding acoustic vulnerabilities.</p>
       <div class="table-container" style="margin-bottom:2.5rem;">
         <table class="table is-fullwidth is-bordered results-table">
           <thead>
@@ -684,8 +684,8 @@
             <tr>
               <td><strong>SiamRPN</strong></td>
               <td>0% / 0%</td>
+              <td>0% / 0%</td>
               <td>83.3% / 88.9%</td>
-              <td>90.2% / 93.1%</td>
               <td>90.2% / 93.1%</td>
             </tr>
             <tr class="highlight-row">
